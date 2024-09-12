@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="manager.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="35"/>
+        <CursorPos X="55" Y="63"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unhttp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unHttp"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="6" Y="45"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-json\src\jsonparser.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="25">
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="11" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="10" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="8" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="4"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="12"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="4" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="7"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="9"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="21" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="18" Column="17"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="19" Column="31" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="53" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="40" Column="28" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="4" Column="39"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="15" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="41" Column="53" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="20" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="21" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="56" Column="22" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="77" Column="28" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="55" Column="33" TopLine="39"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="66" Column="15" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="21" Column="15" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="55" Column="38" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="manager.lpr"/>
+        <Caret Line="63" Column="56" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="19" TopLine="14"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
