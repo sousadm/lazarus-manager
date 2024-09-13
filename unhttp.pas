@@ -42,24 +42,30 @@ var
 begin
   JSONResponse := TJSONObject.Create;
   try
-    ChaveParam := ARequest.QueryFields.Values['chave'];
-    // Resposta JSON simulando uma API REST
-    //JSONResponse.Add('message', 'Hello from Lazarus REST Server!');
-    //JSONResponse.Add('status', 'success');
-
-    if ChaveParam = '' then
+    // Verifica se a rota é '/nfe'
+    if ARequest.PathInfo = '/nfe' then
     begin
-      // Se o nome não for fornecido, retorna uma mensagem de erro
-      JSONResponse.Add('status', 'error');
-      JSONResponse.Add('message', 'Chave não informada');
+      ChaveParam := ARequest.QueryFields.Values['chave'];
+
+      if ChaveParam = '' then
+      begin
+        // Se a chave não for fornecida, retorna uma mensagem de erro
+        JSONResponse.Add('status', 'error');
+        JSONResponse.Add('message', 'Chave não informada');
+      end
+      else
+      begin
+        // Se a chave for fornecida, retorna uma mensagem de sucesso
+        JSONResponse.Add('status', 'success');
+        JSONResponse.Add('message', 'Chave informada, ' + ChaveParam);
+      end;
     end
     else
     begin
-      // Se o nome for fornecido, retorna uma mensagem de sucesso
-      JSONResponse.Add('status', 'success');
-      JSONResponse.Add('message', 'Chave informada, ' + ChaveParam);
+      // Se a rota não for '/nfe', retorna erro de rota inválida
+      JSONResponse.Add('status', 'error');
+      JSONResponse.Add('message', 'Rota não encontrada');
     end;
-
 
     AResponse.Content := JSONResponse.AsJSON;
     AResponse.ContentType := 'application/json';

@@ -7,8 +7,7 @@ uses
   cthreads,
   {$ENDIF}
   Classes, SysUtils, CustApp,
-    fphttpserver, fpjson, jsonparser, unHttp
-  { you can add units after this };
+  Forms, Interfaces,  fphttpserver, fpjson, jsonparser, unHttp, unNFe, unit1;
 
 type
 
@@ -60,6 +59,7 @@ begin
   MyServer := TMyHttpServer.Create;
   try
     Writeln('Servidor REST rodando em http://localhost:8080');
+    Writeln('O aprendizado contínuo leva ao sucesso');
     MyServer.StartServer;
     Readln; // Aguarda uma entrada do usuário para encerrar o servidor
   finally

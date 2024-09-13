@@ -43,9 +43,6 @@ begin
   JSONResponse := TJSONObject.Create;
   try
     ChaveParam := ARequest.QueryFields.Values['chave'];
-    // Resposta JSON simulando uma API REST
-    //JSONResponse.Add('message', 'Hello from Lazarus REST Server!');
-    //JSONResponse.Add('status', 'success');
 
     if ChaveParam = '' then
     begin
@@ -57,7 +54,7 @@ begin
     begin
       // Se o nome for fornecido, retorna uma mensagem de sucesso
       JSONResponse.Add('status', 'success');
-      JSONResponse.Add('message', 'Chave informada, ' + ChaveParam + '!');
+      JSONResponse.Add('message', 'Chave informada, ' + ChaveParam);
     end;
 
 

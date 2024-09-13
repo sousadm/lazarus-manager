@@ -7,8 +7,7 @@ uses
   cthreads,
   {$ENDIF}
   Classes, SysUtils, CustApp,
-    fphttpserver, fpjson, jsonparser, unHttp
-  { you can add units after this };
+  Forms, Interfaces,  fphttpserver, fpjson, jsonparser, unHttp, unNFe;
 
 type
 

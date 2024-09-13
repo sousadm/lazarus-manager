@@ -23,6 +23,20 @@
     <RunParams>
       <FormatVersion Value="2"/>
     </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="ACBr_NF3e"/>
+      </Item>
+      <Item>
+        <PackageName Value="ACBrDFeComum"/>
+      </Item>
+      <Item>
+        <PackageName Value="ACBr_NFe"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
     <Units>
       <Unit>
         <Filename Value="manager.lpr"/>
@@ -32,6 +46,11 @@
         <Filename Value="unhttp.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unHttp"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unnfe.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unNFe"/>
       </Unit>
     </Units>
   </ProjectOptions>
