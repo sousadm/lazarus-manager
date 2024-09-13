@@ -52,6 +52,11 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="unNFe"/>
       </Unit>
+      <Unit>
+        <Filename Value="unconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unConfig"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -5,16 +5,24 @@ unit unNFe;
 interface
 
 uses
-  Classes, SysUtils, ACBrNFe;
+  Classes, SysUtils, ACBrNFe, unConfig;
   function consultar(chave: string): string;
+
+var
+  nfe: TACBrNFe;
 
 implementation
 
 function consultar(chave: string): string;
-var
-  nfe: TACBrNFe;
 begin
+  unConfig.configurar(nfe);
+
   result := chave;
+
+  nfe.NotasFiscais.Clear;
+  nfe.WebServices.Consulta.NFeChave := chave;
+  nfe.WebServices.Consulta.Executar;
+
 end;
 
 end.

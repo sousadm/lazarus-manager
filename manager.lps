@@ -8,27 +8,29 @@
       <Unit>
         <Filename Value="manager.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="21" Y="10"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="52"/>
+        <CursorPos X="3" Y="63"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="unhttp.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unHttp"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="46"/>
-        <CursorPos X="92" Y="61"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="48"/>
+        <CursorPos Y="61"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="unnfe.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="unNFe"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="49" Y="8"/>
-        <UsageCount Value="24"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -36,7 +38,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="9"/>
         <CursorPos Y="42"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrNFe\ACBrNFe.pas"/>
@@ -50,105 +52,72 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="9"/>
         <CursorPos Y="30"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrComum\kylix.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="32" Y="8"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrComum\ACBr.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="36"/>
         <CursorPos Y="57"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrComum\ACBr_jedi.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="23"/>
         <CursorPos Y="42"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrComum\ACBrComum.lrs"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Pacotes\Delphi\ACBrComum\ACBr_Comum.dpk"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="24"/>
         <CursorPos X="29" Y="41"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Pacotes\Lazarus\ACBrDFe\ACBrDFeReportRL.pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\Terceiros\synalist\synautil.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="717"/>
         <CursorPos X="27" Y="730"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrNFe\DANFE\ACBrDFeDANFeReport.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="30"/>
         <CursorPos X="26" Y="41"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrNFe\PCNNFe\pcnNFeW.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3087"/>
         <CursorPos X="81" Y="3097"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrNF3e\DANF3e\ACBrNF3eDANF3eClass.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="30"/>
         <CursorPos X="32" Y="41"/>
-        <UsageCount Value="10"/>
-      </Unit>
-      <Unit>
-        <Filename Value="unit1.pas"/>
-        <ComponentName Value="Form1"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="8"/>
-        <CursorPos X="56" Y="9"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="unit1.pas"/>
-        <ComponentName Value="Form1"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="unit1.pas"/>
-        <ComponentName Value="Form2"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="unit2.pas"/>
-        <ComponentName Value="Form3"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit2"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="unit1.pas"/>
@@ -159,43 +128,194 @@
         <CursorPos X="17" Y="6"/>
         <UsageCount Value="20"/>
       </Unit>
+      <Unit>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="Form3"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit2"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Exemplos\ACBrDFe\ACBrNFe\Lazarus\Frm_ACBrNFe.pas"/>
+        <ComponentName Value="frmACBrNFe"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2088"/>
+        <CursorPos Y="2101"/>
+        <UsageCount Value="11"/>
+        <Bookmarks Count="1">
+          <Item0 Y="4135" ID="1"/>
+        </Bookmarks>
+      </Unit>
+      <Unit>
+        <Filename Value="unconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unConfig"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrDFeSSL.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="894"/>
+        <CursorPos Y="906"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Fontes\PCNComum\pcnConversao.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="18" Y="51"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrNFe\PCNNFe\pcnConversaoNFe.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="21" Y="48"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrDFeConfiguracoes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="139"/>
+        <CursorPos X="14" Y="155"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Fontes\Terceiros\synalist\blcksock.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="85"/>
+        <CursorPos X="14" Y="103"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\instaladores\acbr\Fontes\ACBrDFe\ACBrNFe\ACBrNFeConfiguracoes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="19" Y="88"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="8">
+    <JumpHistory HistoryIndex="28">
       <Position>
-        <Filename Value="manager.lpr"/>
-        <Caret Line="90" TopLine="70"/>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="61" Column="29" TopLine="51"/>
       </Position>
       <Position>
-        <Filename Value="manager.lpr"/>
-        <Caret Line="90" TopLine="70"/>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="42" Column="16" TopLine="30"/>
       </Position>
       <Position>
-        <Filename Value="unnfe.pas"/>
-        <Caret Line="8" Column="29"/>
-      </Position>
-      <Position>
-        <Filename Value="manager.lpr"/>
-        <Caret Line="78" Column="36" TopLine="70"/>
-      </Position>
-      <Position>
-        <Filename Value="manager.lpr"/>
-        <Caret Line="90" TopLine="70"/>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="8" Column="45"/>
       </Position>
       <Position>
         <Filename Value="unnfe.pas"/>
-        <Caret Line="8" Column="20"/>
+        <Caret Line="6" Column="20" TopLine="3"/>
       </Position>
       <Position>
-        <Filename Value="manager.lpr"/>
-        <Caret Line="90" TopLine="70"/>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="63" Column="23" TopLine="50"/>
       </Position>
       <Position>
-        <Filename Value="manager.lpr"/>
-        <Caret Line="72" Column="25" TopLine="70"/>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="8" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="42" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="56" Column="41" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="61" Column="37" TopLine="48"/>
       </Position>
       <Position>
         <Filename Value="unnfe.pas"/>
-        <Caret Line="14"/>
+        <Caret Line="9" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="61" Column="9" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="19" Column="15" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="61" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="46" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="48" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="50" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="59" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="60" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="61" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="21"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="17"/>
+      </Position>
+      <Position>
+        <Filename Value="unhttp.pas"/>
+        <Caret Line="61" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="18"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="19"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unnfe.pas"/>
+        <Caret Line="21"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -203,4 +323,22 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="unnfe.pas"/>
+        <Line Value="18"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="unhttp.pas"/>
+        <Line Value="61"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

@@ -5,7 +5,7 @@ unit unHttp;
 interface
 
 uses
-  Classes, SysUtils, FPHttpServer, fpjson, jsonparser;
+  Classes, SysUtils, FPHttpServer, unNFe, fpjson, jsonparser;
 
 type
 
@@ -38,7 +38,7 @@ procedure TMyHttpServer.HandleRequest(Sender: TObject;
   var AResponse: TFPHTTPConnectionResponse);
 var
   JSONResponse: TJSONObject;
-  ChaveParam: string;
+  xml, ChaveParam: string;
 begin
   JSONResponse := TJSONObject.Create;
   try
@@ -58,6 +58,8 @@ begin
         // Se a chave for fornecida, retorna uma mensagem de sucesso
         JSONResponse.Add('status', 'success');
         JSONResponse.Add('message', 'Chave informada, ' + ChaveParam);
+        xml := unNFe.consultar(ChaveParam);
+
       end;
     end
     else
